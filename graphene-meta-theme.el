@@ -4,7 +4,7 @@
 ;;
 ;; Author: Robert Dallas Gray <mail@robertdallasgray.com>
 ;; URL: https://github.com/rdallasgray/graphene
-;; Version: 0.0.1
+;; Version: 0.0.2
 ;; Keywords: defaults
 
 ;; This file is not part of GNU Emacs.
@@ -42,10 +42,10 @@
   (floor (* .917 graphene-font-height))
   "Relative size for 'small' fonts.")
 
-(deftheme graphene "The Graphene theme -- some simple additions to any theme to improve the look of speedbar, linum, etc.")
+(deftheme graphene-meta "The Graphene meta-theme -- some simple additions to any theme to improve the look of speedbar, linum, etc.")
 
 (custom-theme-set-faces
- 'graphene
+ 'graphene-meta
 
  `(speedbar-directory-face
    ((t (:foreground unspecified
@@ -283,5 +283,6 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'graphene)
+(provide-theme 'graphene-meta)
+
 ;;; graphene-meta-theme.el ends here
