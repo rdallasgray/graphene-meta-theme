@@ -1,4 +1,4 @@
-;;; graphene-meta-theme.el --- Integrated theming for common packages.
+;;; graphene-meta-theme.el --- Integrated theming for common packages
 ;;
 ;; Copyright (c) 2015 Robert Dallas Gray
 ;;
@@ -284,3 +284,4 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'graphene)
+;;; graphene-meta-theme.el ends here
