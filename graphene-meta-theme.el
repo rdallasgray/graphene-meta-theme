@@ -110,6 +110,8 @@
 
  `(font-lock-comment-face
    ((t (:slant normal))))
+ `(font-lock-comment-delimiter-face
+   ((t (:slant normal))))
 
  `(font-lock-doc-face
    ((t (:slant normal))))
