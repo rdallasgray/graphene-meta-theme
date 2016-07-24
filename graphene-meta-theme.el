@@ -47,6 +47,27 @@
 (custom-theme-set-faces
  'graphene-meta
 
+ `(bm-face
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit compilation-warning
+                    :inverse-video t))))
+ `(bm-fringe-face
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit bm-face
+                    :inverse-video nil))))
+ `(bm-persistent-face
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-function-name-face
+                    :inverse-video t))))
+ `(bm-fringe-persistent-face
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit bm-persistent-face
+                    :inverse-video nil))))
+
  `(speedbar-directory-face
    ((t (:foreground unspecified
                     :background unspecified
