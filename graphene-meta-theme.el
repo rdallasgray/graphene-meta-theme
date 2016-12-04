@@ -299,7 +299,103 @@
  `(whitespace-space
    ((t (:foreground unspecified
                     :background unspecified
-                    :inherit highlight)))))
+                    :inherit highlight))))
+ `(ivy-action
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-builtin-face))))
+ `(ivy-confirm-face
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit ivy-action
+                    :weight bold))))
+ `(ivy-current-match
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit highlight))))
+ `(ivy-cursor
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit cursor))))
+ `(ivy-match-required-face
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-warning-face))))
+ `(ivy-minibuffer-match-face-1
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit secondary-selection))))
+ `(ivy-minibuffer-match-face-2
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-constant-face
+                    :inverse-video t))))
+ `(ivy-minibuffer-match-face-3
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-function-name-face
+                    :inverse-video t))))
+ `(ivy-minibuffer-match-face-4
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-keyword-face
+                    :inverse-video t))))
+ `(ivy-remote
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-keyword-face))))
+ `(ivy-subdir
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-function-name-face))))
+ `(ivy-virtual
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit ivy-action))))
+ `(swiper-line-face
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit highlight))))
+ `(swiper-match-face-1
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-regexp-grouping-backslash
+                    :inverse-video t))))
+ `(swiper-match-face-2
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-regexp-grouping-construct
+                    :inverse-video t))))
+ `(swiper-match-face-3
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-keyword-face
+                    :inverse-video t))))
+ `(swiper-match-face-4
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-negation-char-face
+                    :inverse-video t))))
+ `(hydra-face-amaranth
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit link-visited))))
+ `(hydra-face-blue
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-function-name-face))))
+ `(hydra-face-pink
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-regexp-grouping-construct))))
+ `(hydra-face-red
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-warning-face))))
+ `(hydra-face-teal
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit font-lock-constant-face)))))
 
 ;;;###autoload
 (when load-file-name
