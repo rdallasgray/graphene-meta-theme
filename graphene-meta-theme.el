@@ -110,6 +110,12 @@
                 :inherit 'shadow
                 :slant normal))))
 
+ `(line-number
+   ((t (:height ,graphene-small-font-height
+                :foreground unspecified
+                :background unspecified
+                :inherit 'shadow))))
+
  `(visible-mark-face
    ((t (:foreground unspecified
                     :background unspecified
@@ -122,7 +128,9 @@
               :inherit 'hl-line))))
 
  `(fringe
-   ((t (:background unspecified))))
+   ((t (:foreground unspecified
+                    :background unspecified
+                    :inherit 'shadow))))
 
  `(vertical-border
    ((t (:foreground unspecified
@@ -395,7 +403,7 @@
  `(hydra-face-teal
    ((t (:foreground unspecified
                     :background unspecified
-                    :inherit font-lock-constant-face)))))
+                    :Inherit font-lock-constant-face)))))
 
 ;;;###autoload
 (when load-file-name
