@@ -148,7 +148,7 @@
  `(popup-face
    ((t (:background unspecified
                     :foreground unspecified
-                    :inherit linum
+                    :inherit secondary-selection
                     :height ,graphene-font-height))))
  `(popup-scroll-bar-foreground-face
    ((t (:background unspecified
@@ -164,7 +164,7 @@
  `(ac-candidate-face
    ((t (:background unspecified
                     :foreground unspecified
-                    :inherit linum
+                    :inherit secondary-selection
                     :height ,graphene-font-height))))
  `(ac-selection-face
    ((t (:background unspecified
@@ -200,12 +200,12 @@
  `(company-tooltip
    ((t (:background unspecified
                     :foreground unspecified
-                    :inherit linum
+                    :inherit secondary-selection
                     :height ,graphene-font-height))))
  `(company-tooltip-common
    ((t (:background unspecified
                     :foreground unspecified
-                    :inherit linum
+                    :inherit secondary-selection
                     :weight bold
                     :height ,graphene-font-height))))
  `(company-tooltip-selection
@@ -320,7 +320,8 @@
  `(ivy-current-match
    ((t (:foreground unspecified
                     :background unspecified
-                    :inherit highlight))))
+                    :inherit font-lock-function-name-face
+                    :inverse-video t))))
  `(ivy-cursor
    ((t (:foreground unspecified
                     :background unspecified
